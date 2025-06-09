@@ -4,7 +4,8 @@
    "main": "index.js",
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "tsx --watch src/index.ts",
+      "dev:db": "tsx --watch src/index.ts",
+      "dev:start": "tsx --watch src/server.ts",
       "typeorm": "node --import tsx ./node_modules/typeorm/cli.js"
    },
    "keywords": [],
