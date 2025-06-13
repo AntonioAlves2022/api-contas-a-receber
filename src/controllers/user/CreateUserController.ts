@@ -1,5 +1,6 @@
+
 import { FastifyReply, FastifyRequest } from 'fastify'
-import { userSchema } from '../../config/schemas/userSchema'
+import { userSchema } from '@schemas/userSchema'
 import { UsersRepositoryImpl } from '../../database/repositories/users/UsersRepository'
 import { CreateUserUseCase } from '../../usecases/user/CreateUserUseCase'
 
